@@ -22,6 +22,7 @@ public class CreateUser extends BaseApiClass{
 			.contentType(ContentType.JSON)
 			.body(uLib)
 			
+			
 		.when()
 			.post(EndPoints.CREATEEMP);
 			
