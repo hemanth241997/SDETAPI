@@ -1,4 +1,4 @@
-package practiseCRUDwithBDD;
+package practiseCRUDwithBDDNoFW;
 
 import static io.restassured.RestAssured.when;
 

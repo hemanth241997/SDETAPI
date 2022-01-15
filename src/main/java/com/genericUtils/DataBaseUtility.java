@@ -9,6 +9,10 @@ import com.mysql.cj.jdbc.Driver;
 
 public class DataBaseUtility {
 	
+	
+	
+	public String selectQuery = "select * from project";
+	
 	/**
 	 * This method will establish connection to database
 	 */
@@ -74,6 +78,7 @@ public class DataBaseUtility {
 			while(result.next())
 			{
 				String dbData = result.getString(columnNumber);
+				System.out.println("This is DbData frm database" + dbData);
 						if(dbData.equals(expectedData))
 						{
 							actualData=dbData;

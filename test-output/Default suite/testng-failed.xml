@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chaining.ChainingPostAndDelete">
+      <class name="practiseCRUDwithBDDimpFW.CreateUser">
         <methods>
-          <include name="postAndDelete"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- chaining.ChainingPostAndDelete -->
+      </class> <!-- practiseCRUDwithBDDimpFW.CreateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

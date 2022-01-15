@@ -1,4 +1,4 @@
-package practiseCRUDwithBDD;
+package practiseCRUDwithBDDNoFW;
 
 import org.testng.annotations.Test;
 

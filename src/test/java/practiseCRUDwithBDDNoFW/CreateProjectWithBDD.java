@@ -1,4 +1,4 @@
-package practiseCRUDwithBDD;
+package practiseCRUDwithBDDNoFW;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
