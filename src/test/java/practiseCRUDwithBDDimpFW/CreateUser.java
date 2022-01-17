@@ -31,6 +31,7 @@ public class CreateUser extends BaseApiClass{
 			.statusCode(201)
 			.log().all();
 		
+		
 	}
 
 }
