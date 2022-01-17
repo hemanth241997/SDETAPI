@@ -16,7 +16,7 @@ public class CreateUser extends BaseApiClass{
 	@Test
 	public void createUser()
 	{
-		UserLibrary uLib = new UserLibrary("SDET", "25/05/1999", "nithesh@gmail.com", "nithesh", 15, "9888777657", "hdfc", "ROLE_ADMIN", "nithesh");
+		UserLibrary uLib = new UserLibrary("SDET", "25/05/1999", "nithesh@gmail.com", "nithssesh", 15, "9888777657", "hdc", "ROLE_ADMIN", "nithssesh");
 		
 		Response resp = given()
 			.contentType(ContentType.JSON)
@@ -30,9 +30,6 @@ public class CreateUser extends BaseApiClass{
 			.assertThat()
 			.statusCode(201)
 			.log().all();
-		
-		
-		
 		
 	}
 

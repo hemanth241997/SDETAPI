@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1914" started-at="2022-01-15T07:35:17Z" finished-at="2022-01-15T07:35:19Z">
+  <suite name="Default suite" duration-ms="1830" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1914" started-at="2022-01-15T07:35:17Z" finished-at="2022-01-15T07:35:19Z">
-      <class name="practiseCRUDwithBDDimpFW.CreateUser">
-        <test-method status="PASS" signature="BS()[pri:0, instance:practiseCRUDwithBDDimpFW.CreateUser@61832929]" name="BS" is-config="true" duration-ms="640" started-at="2022-01-15T07:35:16Z" finished-at="2022-01-15T07:35:17Z">
+    <test name="Default test" duration-ms="1830" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
+      <class name="practiseCRUDwithBDDimpFW.FetchandDeleteAProject">
+        <test-method status="PASS" signature="BS()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="BS" is-config="true" duration-ms="695" started-at="2022-01-16T14:24:53Z" finished-at="2022-01-16T14:24:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method status="PASS" signature="createUser()[pri:0, instance:practiseCRUDwithBDDimpFW.CreateUser@61832929]" name="createUser" duration-ms="1893" started-at="2022-01-15T07:35:17Z" finished-at="2022-01-15T07:35:19Z">
+        <test-method status="PASS" signature="getandDelete()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="getandDelete" duration-ms="1801" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="AS()[pri:0, instance:practiseCRUDwithBDDimpFW.CreateUser@61832929]" name="AS" is-config="true" duration-ms="10" started-at="2022-01-15T07:35:19Z" finished-at="2022-01-15T07:35:19Z">
+        </test-method> <!-- getandDelete -->
+        <test-method status="PASS" signature="AS()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="AS" is-config="true" duration-ms="13" started-at="2022-01-16T14:24:56Z" finished-at="2022-01-16T14:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- practiseCRUDwithBDDimpFW.CreateUser -->
+      </class> <!-- practiseCRUDwithBDDimpFW.FetchandDeleteAProject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

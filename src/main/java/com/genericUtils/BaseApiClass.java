@@ -17,7 +17,7 @@ public class BaseApiClass {
 		System.out.println("DB connected");
 
 		baseURI = "http://localhost";
-		port = 8085;
+		port = 8084;
 		
 	}
 	

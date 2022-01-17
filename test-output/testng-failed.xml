@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiseCRUDwithBDDimpFW.CreateUser">
+      <class name="practiseCRUDwithBDDimpFW.CreateProjectAndAllocateUser">
         <methods>
-          <include name="createUser"/>
+          <include name="BS"/>
+          <include name="createAndAllocateUser"/>
+          <include name="AS"/>
         </methods>
-      </class> <!-- practiseCRUDwithBDDimpFW.CreateUser -->
+      </class> <!-- practiseCRUDwithBDDimpFW.CreateProjectAndAllocateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
