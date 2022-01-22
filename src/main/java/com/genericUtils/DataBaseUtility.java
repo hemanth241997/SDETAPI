@@ -7,6 +7,11 @@ import java.sql.SQLException;
 
 import com.mysql.cj.jdbc.Driver;
 
+/**
+ * 
+ * @author Chan
+ *
+ */
 public class DataBaseUtility {
 	
 	
@@ -78,7 +83,6 @@ public class DataBaseUtility {
 			while(result.next())
 			{
 				String dbData = result.getString(columnNumber);
-				System.out.println("This is DbData frm database" + dbData);
 						if(dbData.equals(expectedData))
 						{
 							actualData=dbData;

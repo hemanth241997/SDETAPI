@@ -16,7 +16,7 @@ public class DynamicResponseValidation {
 	{
 		String expectedProName = "Chan";
 		Response resp = when()
-		.get("http://localhost:8085/projects");
+		.get("http://localhost:8084/projects");
 		
 		List<String> proName = resp.jsonPath().get("createdBy");
 		
@@ -28,10 +28,12 @@ public class DynamicResponseValidation {
 				flag = true;
 				break;
 			}
-			resp.then().assertThat()
-			.log().all();
-			Assert.assertEquals(flag, true);
+			
 		}
+		resp.then().assertThat()
+		.log().all();
+		Assert.assertEquals(flag, true);
+		
 	}
 
 }

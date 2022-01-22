@@ -14,10 +14,9 @@ public class StaticResponseValidation {
 	@Test
 	public void getAllProjectAndVerify() 
 	{
-		baseURI = "http://localhost:8085";
 		String expCreatorName = "Chan";
 		Response resp = when()
-		.get("/projects");
+		.get("http://localhost:8084/projects");
 		
 		String actCreatorName = resp.jsonPath().get("[0].createdBy");
 	
@@ -25,7 +24,7 @@ public class StaticResponseValidation {
 		.assertThat()
 		.contentType(ContentType.JSON)
 		.log().all();
-		Assert.assertEquals(expCreatorName, actCreatorName);
+		Assert.assertEquals(actCreatorName, expCreatorName);
 		
 		
 		

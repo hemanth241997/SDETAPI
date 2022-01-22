@@ -41,7 +41,7 @@ public class CreateProjectAndAllocateUser extends BaseApiClass{
 			.post(EndPoints.CREATEEMP).prettyPrint();
 		String query = "select * from employee;";
 			String dbUserName = dbUtil.getAndVerifyTheData(query, 11, expUserName);
-			Assert.assertEquals(res, expUserName);
+			Assert.assertEquals(respActProName, expUserName);
 			Assert.assertEquals(expUserName, dbUserName);
 			
 			

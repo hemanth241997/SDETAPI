@@ -5,6 +5,11 @@ import org.testng.annotations.BeforeSuite;
 
 import static io.restassured.RestAssured.*;
 
+/**
+ * 
+ * @author Chan
+ *
+ */
 public class BaseApiClass {
 	public DataBaseUtility dbUtil = new DataBaseUtility();
 	public JavaUtility jUtil= new JavaUtility();

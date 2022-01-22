@@ -17,7 +17,7 @@ public class AddSingleProjectwithCreatedStatus extends BaseApiClass{
 	@Test
 	public void addSingleProject() throws Throwable
 	{
-		String expProName = "hiadscssdfgdaa";
+		String expProName = "Hello";
 		ProjectLibrary pLib = new ProjectLibrary("deepak", expProName, "Created", 10);
 		
 		Response resp = given()
@@ -27,7 +27,6 @@ public class AddSingleProjectwithCreatedStatus extends BaseApiClass{
 		.when()
 			.post(EndPoints.ADD_PROJECT);
 		String respActProName = jsonUtil.getJsonValueData(resp, "projectName");
-			System.out.println(respActProName+"print this");
 		resp.then()
 		.assertThat().contentType(ContentType.JSON)
 			.statusCode(201)

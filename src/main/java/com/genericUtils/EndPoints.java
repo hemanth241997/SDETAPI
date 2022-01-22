@@ -1,5 +1,10 @@
 package com.genericUtils;
 
+/**
+ * 
+ * @author Chan
+ *
+ */
 public interface EndPoints {
 
 	String DATABASE_URL = "jdbc:mysql://localhost:3306/projects";

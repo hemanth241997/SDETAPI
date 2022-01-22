@@ -1,5 +1,6 @@
 package practiseCRUDwithBDDimpFW;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.genericUtils.BaseApiClass;
@@ -37,6 +38,7 @@ public class CreateUserAndGet extends BaseApiClass
 			.assertThat().contentType(ContentType.JSON)
 			.statusCode(200)
 			.log().all();
+			
 		}
 
 }

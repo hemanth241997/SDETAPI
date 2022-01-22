@@ -33,12 +33,12 @@ public class CreateResourceUsingDataProvider {
 		{
 			Object [][] obj = new Object[2][4];
 			obj[0][0] = "MeCreator";
-			obj[0][1] = "MineNamee";
+			obj[0][1] = "MineName";
 			obj[0][2] = "Completed";
 			obj[0][3] = 10;
 			
 			obj[1][0] = "YouCreator";
-			obj[1][1] = "YourNamee";
+			obj[1][1] = "YourName";
 			obj[1][2] = "Completed";
 			obj[1][3] = 10;
 			return obj;

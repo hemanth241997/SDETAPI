@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1830" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
+  <suite name="Default suite" duration-ms="3199" started-at="2022-01-17T10:44:48Z" finished-at="2022-01-17T10:44:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1830" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
-      <class name="practiseCRUDwithBDDimpFW.FetchandDeleteAProject">
-        <test-method status="PASS" signature="BS()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="BS" is-config="true" duration-ms="695" started-at="2022-01-16T14:24:53Z" finished-at="2022-01-16T14:24:54Z">
+    <test name="Default test" duration-ms="3199" started-at="2022-01-17T10:44:48Z" finished-at="2022-01-17T10:44:51Z">
+      <class name="responseValidation.DynamicResponseValidation">
+        <test-method status="PASS" signature="dynamicValidation()[pri:0, instance:responseValidation.DynamicResponseValidation@2b98378d]" name="dynamicValidation" duration-ms="3169" started-at="2022-01-17T10:44:48Z" finished-at="2022-01-17T10:44:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BS -->
-        <test-method status="PASS" signature="getandDelete()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="getandDelete" duration-ms="1801" started-at="2022-01-16T14:24:54Z" finished-at="2022-01-16T14:24:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getandDelete -->
-        <test-method status="PASS" signature="AS()[pri:0, instance:practiseCRUDwithBDDimpFW.FetchandDeleteAProject@61832929]" name="AS" is-config="true" duration-ms="13" started-at="2022-01-16T14:24:56Z" finished-at="2022-01-16T14:24:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AS -->
-      </class> <!-- practiseCRUDwithBDDimpFW.FetchandDeleteAProject -->
+        </test-method> <!-- dynamicValidation -->
+      </class> <!-- responseValidation.DynamicResponseValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
