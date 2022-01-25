@@ -1,7 +1,27 @@
 {
-	"createdBy" : "Christina",
-	"projectName" : "Runnish",
-	"status"	: "On Going",
-	"teamSize"	: 3
+	"store":{
+		"book":[
+					{	
+					"name":"fly high",
+					"author":"Me",
+					"price":12
+					},
+					{
+					"name":"fly low",
+					"author":"her",
+					"price":21
+					}
+				],	
 	
+	"bicyle":[
+				{
+				"model":"t1",
+				"price":123
+				}
+				{
+				"model":"t2",
+				"price":132
+				}
+			]
 }
+
